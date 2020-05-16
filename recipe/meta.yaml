@@ -10,7 +10,7 @@ source:
   sha256: 9ffe7714c539e7390e2169271f01d82fd1a8f9d2cc769c146b6bd409ae23dede
 build:
   noarch: python
-  number: 0
+  number: 1
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
@@ -25,7 +25,7 @@ requirements:
     - laspy
     - lastools
     - libkml
-    - matplotlib
+    - matplotlib-base
     - numba
     - numpy
     - pandas
